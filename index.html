@@ -1,42 +1,37 @@
-<!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen"/>
-  <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="FromCursiveToDatabase : An open-source suite of tools for manipulating facsimiles, crowdsourcing transcription and searching transcripts" />
 
-  <title>FromCursiveToDatabase</title>
-  <meta name="description" content="An open-source suite of tools for manipulating facsimiles, crowdsourcing transcription and searching transcripts">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>FromCursiveToDatabase</title>
+  </head>
 
-</head>
+  <body>
 
-<body>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/FreeUKGen/FromCursiveToDatabase">View on GitHub</a>
 
-  <div class="wrapper">
-    <header>
-      <h1 class="title">FromCursiveToDatabase</h1>
-    </header>
-    <div id="container">
-      <p class="tagline">An open-source suite of tools for manipulating facsimiles, crowdsourcing transcription and searching transcripts</p>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-          <a href="https://github.com/benwbrum/FromCursiveToDatabase/tarball/master" class="download-button tar"><span>Download</span></a>
-          <a href="https://github.com/benwbrum/FromCursiveToDatabase/zipball/master" class="download-button zip"><span>Download</span></a>
-          <a href="https://github.com/benwbrum/FromCursiveToDatabase" class="code">View FromCursiveToDatabase on GitHub</a>
-        </div>
-        <span class="blc"></span><span class="trc"></span>
-        </div>
-        <article class="markdown-body">
-          <h3>FreeUKGen's open source/open data system for crowdsourcing transcription of structured manuscript material</h3>
+          <h1 id="project_title">FromCursiveToDatabase</h1>
+          <h2 id="project_tagline">An open-source suite of tools for manipulating facsimiles, crowdsourcing transcription and searching transcripts</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/FreeUKGen/FromCursiveToDatabase/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/FreeUKGen/FromCursiveToDatabase/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>FreeUKGen's open source/open data system for crowdsourcing transcription of structured manuscript material</h3>
 
 <p>We're building a general-purpose, open-source tool for crowdsourced transcription of structured manuscript data into a searchable database.</p>
 
@@ -45,8 +40,8 @@
 <p>We are building the following systems:</p>
 
 <ol>
-<li>A new tool for loading image sets into the Scribe system and attaching them to data-entry templates. </li>
-<li>Modifications to the Scribe system to handle our volunteer organization's workflow, plus some usability enhancements.</li>
+<li>A new tool <a href="https://github.com/FreeUKGen/MyopicVicar">MyopicVicar</a> for loading image sets into the Scribe system and attaching them to data-entry templates. </li>
+<li>Modifications to the <a href="https://github.com/FreeUKGen/Scribe">Scribe system</a> to handle our volunteer organization's workflow, plus some usability enhancements.</li>
 <li>A publicly-accessible search-and-display website to mine the database created through data entry. </li>
 <li>A reporting, monitoring, and coordinating system for our volunteer supervisors. </li>
 </ol><p>We also plan to add support for geocoding during transcription and GIS support within the search and display system. Currently, initial development is mostly finished with 1 and moving on to 2 and 3 above.</p>
@@ -54,26 +49,29 @@
 <p>Although this tool is focused on support for parish registers and census forms, we are intent on creating a general-purpose system for any tabular/structured data.   Scribe's data-entry templates are defined in its database, with the possibility to assign different templates to different images or sets of images.  As a result, we can use a simple template for a 1750 register of burials or a much more complex template for an 1881 census form.  Since each transcribed record is linked to the section of the page image it represents, we have the ability to display the facsimile version of a record alongside its transcript in a list of search results, or to get fancy and pre-populate a transcriber's form with frequently-repeated information like months or birthplaces.</p>
 
 <p>Under the guidance of Ben Laurie, the trustee directing the project, we are committed to open source and open data.  We're releasing the source code under an Apache license and planning to build API access to the full set of record data.</p>
-        </article>
-      </div>
+
+<h2>How to Help</h2>
+
+<p>We need your help to make this the best project it can be, and there are plenty of ways to contribute:</p>
+
+<ol>
+<li>Fix a bug!  Check out the <a href="https://github.com/FreeUKGen/Scribe/issues">issues list on our fork of Scribe</a> and see if anything looks intriguing.</li>
+<li>Join the <a href="http://lists.fbmd.net/mailman/listinfo/dev">mailing list</a>!<br>
+</li>
+<li>Tackle a feature from our <a href="https://www.pivotaltracker.com/projects/476329#">database of user stories</a> (click the Icebox link for the issues discussed so far).</li>
+</ol>
+      </section>
     </div>
-    <footer>
-      <div class="owner">
-      <p><a href="https://github.com/benwbrum" class="avatar"><img src="https://secure.gravatar.com/avatar/d34fc3a0018a48156439cccf0c62ee8e?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="48" height="48"/></a> <a href="https://github.com/benwbrum">benwbrum</a> maintains <a href="https://github.com/benwbrum/FromCursiveToDatabase">FromCursiveToDatabase</a></p>
 
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">FromCursiveToDatabase maintained by <a href="https://github.com/FreeUKGen">FreeUKGen</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
 
-      </div>
-      <div class="creds">
-        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br/>theme by <a href="http://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/benwbrum/FromCursiveToDatabase/tarball/master" class="tar">tar</a><a href="https://github.com/benwbrum/FromCursiveToDatabase/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
+    
 
-  
-</body>
+  </body>
 </html>
